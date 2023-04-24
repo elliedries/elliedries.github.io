@@ -3,7 +3,7 @@ title: PHOTORAMA
 email: ""
 description: "Photo Journal"
 url: "https://elliedries.github.io"
-baseurl: "/photorama"
+baseurl: ""
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://elliedries.github.io/photorama/gallery/"  
-  - JOURNAL: "https://elliedries.github.io/photorama/journal/"
-  - ABOUT: "https://elliedries.github.io/photorama/about/"
+  - GALLERY: "https://elliedries.github.io/gallery/"  
+  - JOURNAL: "https://elliedries.github.io/journal/"
+  - ABOUT: "https://elliedries.github.io/about/"
 
 # All translation keys
 translations:
