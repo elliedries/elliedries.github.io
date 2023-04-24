@@ -1,12 +1,12 @@
 # Site settings
-title: Painting Portfolio
+title: PHOTORAMA
 email: ""
-description: "Painting Portfolio"
+description: "Photo Journal"
 url: "https://elliedries.github.io"
-baseurl: "/"
+baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
-instagram_username: "@elliepaintsforyou"
+instagram_username: ""
 github_username:  ""
 deviantart_username: ""
 flickr_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://elliedries.github.io/portfolio/gallery/"  
-  - JOURNAL: "https://elliedries.github.io/portfolio/journal/"
-  - ABOUT: "https://elliedries.github.io/portfolio/about/"
+  - GALLERY: "https://elliedries.github.io/photorama/gallery/"  
+  - JOURNAL: "https://elliedries.github.io/photorama/journal/"
+  - ABOUT: "https://elliedries.github.io/photorama/about/"
 
 # All translation keys
 translations:
