@@ -1,56 +1,61 @@
-# Starving Artist Jekyll Theme
-![Starving Artist Jekyll Theme screenshot](screenshot.png)
+<p align="center">
+    <img alt="Logo" src="https://res.cloudinary.com/wecloud/image/upload/v1662881132/artist-portfolio/logo_png_gacjtg.png" height="120">
+    <h1 align="center">Artist Portfolio</h1>
+</p>
 
-# Install as Gem Theme
-Jekyll requires Ruby so make sure Ruby is installed before you begin.
+> ### A artist portfolio website to showcase your projects.
 
-### Start a New Site
-- Install Jekyll and Bundler
-  - `gem install bundler`
-- Create a New Site
-  - `jekyl new mysite`
-- Move into that directory
-  - `cd mysite`
-- Install Required Gems
-  - `bundle install`
-- Verify
-  - Run `jekyll serve`
-  - Browse to [http://localhost:4000](http://localhost:4000)
-- Download Starving Artist Theme
-  - Replace the line `gem "minima"` with this:
-    - `gem "starving-artist-jekyll-theme"`
-  - Run `bundle install`
-- Tell Jekyll to use Starving Artist Theme
-  - Open `_config.yml` and change the line `theme: minima` to this:
-    - `theme: starving-artist-jekyll-theme`
-- Import the Starving Artist CSS
-  - Open your `css/style.css` and change the line `@import "minima;"` to this:
-    - `@import "starving-artist";`
+<p align="center">
+    <a href="">
+        <img src="https://img.shields.io/badge/Made%20by%20Satvik%20Virmani-000000?style=for-the-badge">
+    </a>
+</p>
 
+<p align="center">
+    <img src="https://img.shields.io/github/license/satvikvirmani/nextjs-artist-portfolio?color=000000&logoColor=000000&style=for-the-badge">
+    <img src="https://img.shields.io/github/issues/satvikvirmani/nextjs-artist-portfolio?color=000000&logoColor=000000&style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/satvikvirmani/nextjs-artist-portfolio?color=000000&logoColor=000000&style=for-the-badge">
+    <img src="https://img.shields.io/github/package-json/v/satvikvirmani/nextjs-artist-portfolio?color=000000&logoColor=000000&style=for-the-badge">
+    <img src="https://img.shields.io/website?color=000000&down_color=red&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fnextjs-artist-portfolio.vercel.app%2F">
+</p>
 
-### Migrate an Existing Site
-**NOTE** This requires you to be upgraded to at least Jekyll 3.2 which added support for themes.
+## Features
 
-- Download Starving Artist Theme
-  - Replace the line `gem "minima"` with this:
-    - `gem "starving-artist-jekyll-theme"`
-  - Run `bundle install`
-- Tell Jekyll to use Starving Artist Theme
-  - Open `_config.yml` and change the line `theme: minima` to this:
-    - `theme: starving-artist-jekyll-theme`
-- Import the Starving Artist CSS
-  - Open your `css/style.css` and change the line `@import "minima;"` to this:
-    - `@import "starving-artist";`
+1. PWA with offline support and installability
+2. Firebase backend already configured
+3. Fully responsive and customizable
+4. Image optimization
+5. Full SEO friendly
 
-# Jekyll 2.x Method
-Jekyll requires Ruby so make sure Ruby is installed before you begin.
+## Development
 
-- Download this site
-  - `git clone https://github.com/chrisanthropic/starving-artist-jekyll-theme.git`
-- Move into its directory
-  - `cd starving-artist-jekyll-theme`
-- Install Required Gems
-  - `bundle install`
-- Verify
-  - Run `jekyll serve`
-  - Browse to [http://localhost:4000](http://localhost:4000)
+```sh
+git clone
+cd nextjs-artist-portfolio
+yarn install
+yarn dev
+```
+
+## Dependencies
+   <img src="https://img.shields.io/github/package-json/dependency-version/satvikvirmani/nextjs-artist-portfolio/react?color=000000&style=for-the-badge">
+   <img src="https://img.shields.io/github/package-json/dependency-version/satvikvirmani/nextjs-artist-portfolio/next?color=000000&style=for-the-badge">
+   <img src="https://img.shields.io/github/package-json/dependency-version/satvikvirmani/nextjs-artist-portfolio/firebase?color=000000&style=for-the-badge">
+   <img src="https://img.shields.io/github/package-json/dependency-version/satvikvirmani/nextjs-artist-portfolio/framer-motion?color=000000&style=for-the-badge">
+   <img src="https://img.shields.io/github/package-json/dependency-version/satvikvirmani/nextjs-artist-portfolio/swiper?color=000000&style=for-the-badge">
+
+## Author
+
+### Satvik Virmani
+
+<a href="https://twitter.com/satvikvirmani">
+    <img src="https://img.shields.io/twitter/follow/satvikvirmani?color=000000&logo=twitter&logoColor=FFFFFF&style=for-the-badge">
+</a>
+
+## Contributions
+
+Contributions, issues and feature requests are welcome!
+Feel free to check [issues](https://github.com/satvikvirmani/nextjs-artist-portfolio/issues) page.
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
